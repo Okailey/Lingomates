@@ -1,0 +1,67 @@
+{
+  "lesson_1": {
+    "title": "Lesson 1: Numbers, Alphabets, Pronunciation & Basic Introduction",
+    "questions": [
+      {
+        "question": "What is '1' in Twi?",
+        "options": ["baako", "mmienu", "mmiɛnsa", "ɛnan"],
+        "answer": "baako"
+      },
+      {
+        "question": "What is '5' in Twi?",
+        "options": ["ɛnan", "anum", "nsia", "nkron"],
+        "answer": "anum"
+      },
+      {
+        "question": "What is '10' in Twi?",
+        "options": ["edu", "dubaako", "dunson", "dunwɔtwe"],
+        "answer": "edu"
+      },
+      {
+        "question": "What is '14' in Twi?",
+        "options": ["dumiɛnsa", "dunan", "dunkron", "dumiɛnsa"],
+        "answer": "dunan"
+      },
+      {
+        "question": "Which letter is represented by 'Aa'?",
+        "options": ["A", "B", "D", "E"],
+        "answer": "A"
+      },
+      {
+        "question": "Which letter is represented by 'Ɛɛ'?",
+        "options": ["E", "O", "Ɔɔ", "I"],
+        "answer": "Ɛ"
+      },
+      {
+        "question": "Which letter is represented by 'Ww'?",
+        "options": ["T", "U", "W", "Y"],
+        "answer": "W"
+      },
+      {
+        "question": "How do you say 'My name is ...' in Twi?",
+        "options": ["Yɛferɛ me ...", "Me din de ...", "Me firi ...", "Sɛn na wɔka ..."],
+        "answer": "Me din de ..."
+      },
+      {
+        "question": "How do you say 'I'm from ...' in Twi?",
+        "options": ["Me ho yε, me da ase", "Me firi ...", "Aane", "Ebia"],
+        "answer": "Me firi ..."
+      },
+      {
+        "question": "How do you reply to 'How are you?' in Twi?",
+        "options": ["Me ho yε", "Me ho yε, me da ase", "Bɔkɔɔ", "Daabi"],
+        "answer": "Me ho yε, me da ase"
+      },
+      {
+        "question": "How do you say 'Yes' in Twi?",
+        "options": ["Aane", "Daabi", "Ebia", "Mennim"],
+        "answer": "Aane"
+      },
+      {
+        "question": "How do you say 'I don't know' in Twi?",
+        "options": ["Me ho yε", "Mennim", "Aane", "Ebia"],
+        "answer": "Mennim"
+      }
+    ]
+  }
+}

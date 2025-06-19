@@ -1,0 +1,478 @@
+{
+    "phrases": [
+        {
+            "category": "Welcome",
+            "phrases": [
+                "Akwaaba",
+                "Mema wo akwaaba (I welcome you)",
+                "Yɛma wo akwaaba (We welcome you)",
+                "Yaa agya (reply - to an elderly man)",
+                "Yaa ɛna (reply - to an elderly woman)",
+                "Yaa anua (reply - to a sibling age mate or colleague)"
+            ]
+        },
+        {
+            "category": "Hello (General greeting)",
+            "phrases": [
+                "Agoo"
+            ]
+        },
+        {
+            "category": "Hello (on phone)",
+            "phrases": [
+                ""
+            ]
+        },
+        {
+            "category": "How are you?",
+            "phrases": [
+                "Wo ho te sεn? (frm)",
+                "εte sεn? ",
+                "Mpɔ mu te sεn? (\"How is life\")"
+            ]
+        },
+        {
+            "category": "Reply to 'How are you?'",
+            "phrases": [
+                "Me ho yε, me da ase (frm)",
+                "Me ho yε (\"My body is fine\")",
+                "Bɔkɔɔ",
+                "εyε",
+                "Me ho yɛ, na wo nsoɛ?"
+            ]
+        },
+        {
+            "category": "Long time no see",
+            "phrases": [
+                "Yɛhyiaeɛ akyɛ"
+            ]
+        },
+        {
+            "category": "What's your name?",
+            "phrases": [
+                "Yɛferɛ wo sɛn?"
+            ]
+        },
+        {
+            "category": "My name is ...",
+            "phrases": [
+                "Yɛferɛ me ...",
+                "Me din de ..."
+            ]
+        },
+        {
+            "category": "Where are you from?",
+            "phrases": [
+                "Wo fri he?"
+            ]
+        },
+        {
+            "category": "I'm from ...",
+            "phrases": [
+                "Me fri ..."
+            ]
+        },
+        {
+            "category": "Pleased to meet you",
+            "phrases": [
+                "Ɛyɛ me anigyeɛ sɛ mehyiaa woɔ",
+                "Ɛyɛ me anigyeɛ sɛ yɛahyia",
+                "M’ani agye sɛ yɛahyia"
+            ]
+        },
+        {
+            "category": "Good morning (Morning greeting)",
+            "phrases": [
+                "Me ma wo akye",
+                "Maakye",
+                "Yaa agya (reply - to an elderly man)",
+                "Yaa ɛna (reply - to an elderly woman)",
+                "Yaa anua (reply - to a sibling age mate or colleague)"
+            ]
+        },
+        {
+            "category": "Good afternoon (Afternoon greeting)",
+            "phrases": [
+                "Me ma wo aha",
+                "Maaha",
+                "Yaa agya (reply - to an elderly man)",
+                "Yaa ɛna (reply - to an elderly woman)",
+                "Yaa anua (reply - to a sibling age mate or colleague)"
+            ]
+        },
+        {
+            "category": "Good evening (Evening greeting)",
+            "phrases": [
+                "Me ma wo adwo",
+                "Maadwo",
+                "Yaa agya (reply - to an elderly man)",
+                "Yaa ɛna (reply - to an elderly woman)",
+                "Yaa anua (reply - to a sibling age mate or colleague)"
+            ]
+        },
+        {
+            "category": "Good night",
+            "phrases": [
+                "Da yie"
+            ]
+        },
+        {
+            "category": "Goodbye (Parting phrases)",
+            "phrases": [
+                "Nanti yie",
+                "Yɛbɛhyia biom (We shall meet again)",
+                "Yɛbɛhyia akyire (We shall meet later)"
+            ]
+        },
+        {
+            "category": "Good luck!",
+            "phrases": [
+                "Mema wo tiri nkwa!"
+            ]
+        },
+        {
+            "category": "Have a nice day",
+            "phrases": [
+                ""
+            ]
+        },
+        {
+            "category": "Bon voyage / Have a good journey",
+            "phrases": [
+                "Nanti yie!"
+            ]
+        },
+        {
+            "category": "Yes",
+            "phrases": [
+                "Aane"
+            ]
+        },
+        {
+            "category": "No",
+            "phrases": [
+                "Daabi"
+            ]
+        },
+        {
+            "category": "Maybe",
+            "phrases": [
+                "Ebia"
+            ]
+        },
+        {
+            "category": "I don’t know",
+            "phrases": [
+                "Mennim"
+            ]
+        },
+        {
+            "category": "I understand",
+            "phrases": [
+                "Mete aseɛ"
+            ]
+        },
+        {
+            "category": "I don’t understand",
+            "phrases": [
+                "Mente aseɛ"
+            ]
+        },
+        {
+            "category": "Please speak more slowly",
+            "phrases": [
+                "Mepa wo kyɛw, wobetumi aka no brɛoo?"
+            ]
+        },
+        {
+            "category": "Please say that again",
+            "phrases": [
+                "Mepa wo kyɛw, wobetumi aka no biom?"
+            ]
+        },
+        {
+            "category": "Please write it down",
+            "phrases": [
+                "Mepa wo kyɛw, kyerɛw ma me"
+            ]
+        },
+        {
+            "category": "Do you speak English?",
+            "phrases": [
+                "Woka brɔfo kasa?"
+            ]
+        },
+        {
+            "category": "Sorry",
+            "phrases": [
+                "Kosɛ",
+                "Kafra"
+            ]
+        },
+        {
+            "category": "Do you speak Twi? Yes a little (reply to 'Do you speak ...?')",
+            "phrases": [
+                "Mete Twi Kakra"
+            ]
+        },
+        {
+            "category": "How do you say ... in Twi?",
+            "phrases": [
+                "Sɛn na wɔka ... wɔ Twi kasa mu?"
+            ]
+        },
+        {
+            "category": "Excuse me",
+            "phrases": [
+                "Mepa wo kyɛw"
+            ]
+        },
+        {
+            "category": "How much is this?",
+            "phrases": [
+                "ɛyɛ sɛn?"
+            ]
+        },
+        {
+            "category": "Sorry",
+            "phrases": [
+                "Kosɛ",
+                "Kafra"
+            ]
+        },
+        {
+            "category": "Please",
+            "phrases": [
+                "Mepa wo kyɛw",
+                "Mepaa kyɛw"
+            ]
+        },
+        {
+            "category": "Thank you",
+            "phrases": [
+                "Meda wo ase",
+                "Medaase",
+                "Meda wo ase paa",
+                "Meda wo ase bebree"
+            ]
+        },
+        {
+            "category": "Where’s the toilet / bathroom?",
+            "phrases": [
+                "Ɛhe na agyananbea no wɔ?",
+                "Agyananbea no wɔ he?"
+            ]
+        },
+        {
+            "category": "This gentleman will pay for everything",
+            "phrases": [
+                "Abranteɛ yi bɛtua biribia",
+                "Abranteɛ yi bɛtua ne nyinaa"
+            ]
+        },
+        {
+            "category": "This lady will pay for everything",
+            "phrases": [
+                "Awuraba yi bɛtua biribia",
+                "Awuraba yi bɛtua ne nyinaa"
+            ]
+        },
+        {
+            "category": "Would you like to dance with me?",
+            "phrases": [
+                "Wopɛ sɛ wo ne me sa?"
+            ]
+        },
+        {
+            "category": "Do you come here often?",
+            "phrases": [
+                "Wotaa ba ha?"
+            ]
+        },
+        {
+            "category": "I miss you",
+            "phrases": [
+                "Mafe wo"
+            ]
+        },
+        {
+            "category": "I love you",
+            "phrases": [
+                "Medɔ wo"
+            ]
+        },
+        {
+            "category": "Leave me alone!",
+            "phrases": [
+                "Gyae me!"
+            ]
+        },
+        {
+            "category": "Help!",
+            "phrases": [
+                "Boa me!"
+            ]
+        },
+        {
+            "category": "Fire!",
+            "phrases": [
+                "Ogya!"
+            ]
+        },
+        {
+            "category": "Call the police!",
+            "phrases": [
+                "Frɛ polisi!"
+            ]
+        },
+        {
+            "category": "Christmas greetings",
+            "phrases": [
+                "Afehyia pa"
+            ]
+        },
+        {
+            "category": "Birthday greetings",
+            "phrases": [
+                "Mema wo awoda pa"
+            ]
+        },
+        {
+            "category": "Are you done?",
+            "phrases": [
+                "Wawie?"
+            ]
+        },
+        {
+            "category": "I'm ill",
+            "phrases": [
+                "Me yare",
+                "Me ho nfa me"
+            ]
+        },
+        {
+            "category": "I'm hungry",
+            "phrases": [
+                "Ɛkɔm de me"
+            ]
+        },
+        {
+            "category": "I feel sleepy",
+            "phrases": [
+                "M'ani kum"
+            ]
+        },
+        {
+            "category": "Is everything alright?",
+            "phrases": [
+                "Biribia bɔkɔɔ deɛ?"
+            ]
+        },
+        {
+            "category": "Show me the way",
+            "phrases": [
+                "Kyerɛ me kwan no"
+            ]
+        },
+        {
+            "category": "I will pay",
+            "phrases": [
+                "Metua"
+            ]
+        },
+        {
+            "category": "Turn off the light",
+            "phrases": [
+                "Dum kanea no"
+            ]
+        },
+        {
+            "category": "Turn on the light",
+            "phrases": [
+                "Sɔ kanea no"
+            ]
+        }
+    ]
+}
+
+"pronunciation": [
+    "dw -- pronounced jw with rounded lips.",
+    "gy -- sounds like the j in jug.",
+    "hw -- is like the initial sound made by the word whew!",
+    "hy -- pronounced sh as in shirt.",
+    "kw -- is like the initial sound made by the word quick.",
+    "ky -- pronounced ch as in chat.",
+    "ny -- is the same as the ñ in the pronunciation of España.",
+    "nw -- pronounced nyw. This is ny with rounded lips.",
+    "tw -- pronounced chw. This is ch with rounded lips."
+],
+
+            "alphabets": [
+                ["Aa", "Bb", "Dd", "Ee", "Ɛɛ"],
+                ["Ff", "Gg", "Hh", "Ii", "Kk"],
+                ["Ll", "Mm", "Nn", "Oo", "Ɔɔ"],
+                ["Pp", "Rr", "Ss", "Tt", "Uu"],
+                ["Ww", "Yy"]
+            ],
+            "basic_introduction": {
+                "title": "Basic Introduction",
+                "content": [
+                    {
+                        "category": "How to say your name",
+                        "phrases": [
+                            "Yɛferɛ me ...",
+                            "Me din de ..."
+                        ]
+                    },
+                    {
+                        "category": "I'm from ...",
+                        "phrases": [
+                            "Me firi ..."
+                        ]
+                    },
+                    {
+                        "category": "Reply to 'How are you?'",
+                        "phrases": [
+                            "Me ho yε, me da ase (frm)",
+                            "Me ho yε (\"My body is fine\")",
+                            "Bɔkɔɔ",
+                            "εyε",
+                            "Me ho yɛ, na wo nsoɛ?"
+                        ]
+                    },
+                    {
+                        "category": "How do you say ... in Twi?",
+                        "phrases": [
+                            "Sɛn na wɔka ... wɔ Twi kasa mu?"
+                        ]
+                    },
+                    {
+                        "category": "Yes",
+                        "phrases": [
+                            "Aane"
+                        ]
+                    },
+                    {
+                        "category": "No",
+                        "phrases": [
+                            "Daabi"
+                        ]
+                    },
+                    {
+                        "category": "Maybe",
+                        "phrases": [
+                            "Ebia"
+                        ]
+                    },
+                    {
+                        "category": "I don’t know",
+                        "phrases": [
+                            "Mennim"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
+}

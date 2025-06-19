@@ -1,0 +1,216 @@
+{
+  "lessons": {
+    "lesson_1": {
+      "title": "Lesson 1: Numbers, Alphabets, Pronunciation & Basic Introduction",
+      "sections": {
+        "numbers": {
+          "1": "baako",
+          "2": "mmienu",
+          "3": "mmiɛnsa",
+          "4": "ɛnan",
+          "5": "anum",
+          "6": "nsia",
+          "7": "nson",
+          "8": "nwɔtwe",
+          "9": "nkron",
+          "10": "edu",
+          "11": "dubaako",
+          "12": "dummienu",
+          "13": "dummiɛnsa",
+          "14": "dunan",
+          "15": "dunum",
+          "16": "dunsia",
+          "17": "dunson",
+          "18": "dunwɔtwe",
+          "19": "dunkron",
+          "20": "aduonu"
+        },
+        "alphabets": [
+          "Aa", "Bb", "Dd", "Ee", "Ɛɛ",
+          "Ff", "Gg", "Hh", "Ii", "Kk",
+          "Ll", "Mm", "Nn", "Oo", "Ɔɔ",
+          "Pp", "Rr", "Ss", "Tt", "Uu",
+          "Ww", "Yy"
+        ],
+        "basic_introduction": {
+          "title": "Basic Introduction",
+          "content": [
+            {
+              "category": "How to say your name",
+              "phrases": [
+                "Yɛferɛ me ...",
+                "Me din de ..."
+              ]
+            },
+            {
+              "category": "I'm from ...",
+              "phrases": [
+                "Me fri ..."
+              ]
+            },
+            {
+              "category": "Reply to 'How are you?'",
+              "phrases": [
+                "Me ho yε, me da ase",
+                "Bɔkɔɔ",
+                "εyε",
+                "Me ho yɛ, na wo nsoɛ?"
+              ]
+            },
+            {
+              "category": "How do you say ... in Twi?",
+              "phrases": [
+                "Sɛn na wɔka ... wɔ Twi kasa mu?"
+              ]
+            },
+            {
+                "category": "Good evening (Evening greeting)",
+                "phrases": [
+                    "Me ma wo adwo",
+                    "Maadwo",
+                    "Yaa agya (reply - to an elderly man)",
+                    "Yaa ɛna (reply - to an elderly woman)",
+                    "Yaa anua (reply - to a sibling age mate or colleague)"
+                ]
+            },
+            {
+                "category": "Good morning (Morning greeting)",
+                "phrases": [
+                    "Me ma wo akye",
+                    "Maakye",
+                    "Yaa agya (reply - to an elderly man)",
+                    "Yaa ɛna (reply - to an elderly woman)",
+                    "Yaa anua (reply - to a sibling age mate or colleague)"
+                ]
+            },
+            {
+                "category": "Good afternoon (Afternoon greeting)",
+                "phrases": [
+                    "Me ma wo aha",
+                    "Maaha",
+                    "Yaa agya (reply - to an elderly man)",
+                    "Yaa ɛna (reply - to an elderly woman)",
+                    "Yaa anua (reply - to a sibling age mate or colleague)"
+                ]
+            },
+            {
+                "category": "Please say that again",
+                "phrases": [
+                    "Mepa wo kyɛw, wobetumi aka no biom?"
+                ]
+            },
+            {
+                "category": "Do you speak English?",
+                "phrases": [
+                    "Woka brɔfo kasa?"
+                ]
+            },
+            {
+                "category": "I love you",
+                "phrases": [
+                    "Medɔ wo"
+                ]
+            },
+            {
+                "category": "I miss you",
+                "phrases": [
+                    "Mafe wo"
+                ]
+            },
+            {
+              "category": "Yes",
+              "phrases": [
+                "Aane"
+              ]
+            },
+            {
+              "category": "No",
+              "phrases": [
+                "Daabi"
+              ]
+            },
+            {
+              "category": "Maybe",
+              "phrases": [
+                "Ebia"
+              ]
+            },
+            {
+              "category": "I don’t know",
+              "phrases": [
+                "Mennim"
+              ]
+            }
+          ]
+        }
+      },
+      "quiz": {
+        "lesson_1": {
+          "title": "Lesson 1: Numbers, Alphabets, Pronunciation & Basic Introduction",
+          "questions": [
+            {
+              "question": "What is '1' in Twi?",
+              "options": ["baako", "mmienu", "mmiɛnsa", "ɛnan"],
+              "answer": "baako"
+            },
+            {
+              "question": "What is '5' in Twi?",
+              "options": ["ɛnan", "anum", "nsia", "nkron"],
+              "answer": "anum"
+            },
+            {
+              "question": "What is '10' in Twi?",
+              "options": ["edu", "dubaako", "dunson", "dunwɔtwe"],
+              "answer": "edu"
+            },
+            {
+              "question": "What is '14' in Twi?",
+              "options": ["dumiɛnsa", "dunan", "dunkron", "dumiɛnsa"],
+              "answer": "dunan"
+            },
+            {
+              "question": "Which letter is represented by 'Aa'?",
+              "options": ["A", "B", "D", "E"],
+              "answer": "A"
+            },
+            {
+              "question": "Which letter is represented by 'Ɛɛ'?",
+              "options": ["E", "O", "Ɔɔ", "I"],
+              "answer": "Ɛ"
+            },
+            {
+              "question": "Which letter is represented by 'Ww'?",
+              "options": ["T", "U", "W", "Y"],
+              "answer": "W"
+            },
+            {
+              "question": "How do you say 'My name is ...' in Twi?",
+              "options": ["Yɛferɛ me ...", "Me din de ...", "Me fri ...", "Sɛn na wɔka ..."],
+              "answer": "Me din de ..."
+            },
+            {
+              "question": "How do you say 'I'm from ...' in Twi?",
+              "options": ["Me ho yε, me da ase", "Me firi ...", "Aane", "Ebia"],
+              "answer": "Me fri ..."
+            },
+            {
+              "question": "How do you reply to 'How are you?' in Twi?",
+              "options": ["Me ho yε", "Me ho yε, me da ase", "Bɔkɔɔ", "Daabi"],
+              "answer": "Me ho yε, me da ase"
+            },
+            {
+              "question": "How do you say 'Yes' in Twi?",
+              "options": ["Aane", "Daabi", "Ebia", "Mennim"],
+              "answer": "Aane"
+            },
+            {
+              "question": "How do you say 'I don't know' in Twi?",
+              "options": ["Me ho yε", "Mennim", "Aane", "Ebia"],
+              "answer": "Mennim"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
