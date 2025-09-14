@@ -8,93 +8,73 @@
 import SwiftUI
 
 struct HomepageView: View {
-    // Binding to control navigation state from the parent view
     @Binding var currentView: AppView
+    var lessonData: LessonData? // passed from ContentView
 
-    @State private var selectedLesson: String? = nil
-    @State private var navigateToLessons = false
-    @State private var lessonData: LessonData? = LessonLoader.loadLessons()
     var body: some View {
         ZStack {
-            Color(.white)
+            Color.white
                 .edgesIgnoringSafeArea(.all)
+
             ScrollView {
-            VStack(spacing: 0) {
-                Spacer().frame(height: 60)
-                
-                // App Logo or Avatar
-                Image("flags")
-                    .resizable()
-                    .frame(width: 300, height: 200)
-                    .padding(.bottom, 10)
-                
-                Text("Here are some fun, bite-sized lessons that fit into your schedule.")
-                    .font(.subheadline)
-                    .foregroundColor(.black)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 30)
-                    .padding(.top, 2)
-                
-              
+                VStack(spacing: 0) {
+                    Spacer().frame(height: 60)
+
+                    // App Logo
+                    Image("flags")
+                        .resizable()
+                        .frame(width: 300, height: 200)
+                        .padding(.bottom, 10)
+
+                    Text("Here are some fun, bite-sized lessons that fit into your schedule.")
+                        .font(.subheadline)
+                        .foregroundColor(.black)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 30)
+                        .padding(.top, 2)
+
                     VStack(spacing: 20) {
                         ProgressiveChart(completedLesson: 0, allLessons: 10, streaks: 0)
-                        
-                        lessonButton(title: "Lesson 1", locked: false)
-                        lessonButton(title: "Lesson 2", locked: true)
-                        lessonButton(title: "Lesson 3", locked: true)
-                        lessonButton(title: "Lesson 4", locked: true)
-                        lessonButton(title: "Lesson 5", locked: true)
-                        lessonButton(title: "Lesson 6", locked: true)
-                        lessonButton(title: "Lesson 7", locked: true)
-                        lessonButton(title: "Lesson 8", locked: true)
-                        lessonButton(title: "Lesson 9", locked: true)
-                        lessonButton(title: "Lesson 10", locked: true)
-                    }
-                    .padding(.top, 20)
-                }
-                
-                Divider()
-                
-                // Bottom navigation bar
-                HStack {
-                    Spacer()
-                    VStack {
-                        Image(systemName: "house.fill")
-                        Text("Home").font(.caption)
-                    }
-                    Spacer()
-                    VStack {
-                        Image(systemName: "person.fill")
-                        Text("Profile").font(.caption)
-                    }
-                    Spacer()
-                    VStack {
-                        Image(systemName: "gearshape.fill")
-                        Text("Settings").font(.caption)
-                    }
-                    Spacer()
-                }
-                .padding(.vertical, 10)
-                .background(Color.white.shadow(radius: 2))
-            }
-            
-            // Conditionally navigate to LessonsView
-                        if currentView == .lessons {
-                            if let lessonName = selectedLesson,
-                               let lesson = lessonData?.lessons[lessonName] {
-                                LessonsView(theLesson: lesson, currentView: $currentView)
-                            } else {
-                                Text("Lesson not found")
-                            }
+
+                        ForEach(1...10, id: \.self) { i in
+                            lessonButton(title: "Lesson \(i)", locked: i != 1)
                         }
                     }
+                    .padding(.top, 20)
+
+                    Divider()
+
+                    // Bottom navigation bar
+                    HStack {
+                        Spacer()
+                        VStack {
+                            Image(systemName: "house.fill")
+                            Text("Home").font(.caption)
+                        }
+                        Spacer()
+                        VStack {
+                            Image(systemName: "person.fill")
+                            Text("Profile").font(.caption)
+                        }
+                        Spacer()
+                        VStack {
+                            Image(systemName: "gearshape.fill")
+                            Text("Settings").font(.caption)
+                        }
+                        Spacer()
+                    }
+                    .padding(.vertical, 10)
+                    .background(Color.white.shadow(radius: 2))
                 }
-    // MARK: - Lesson Button Component
+            }
+        }
+    }
+
+    // MARK: - Lesson Button
     private func lessonButton(title: String, locked: Bool) -> some View {
         Button(action: {
-            if !locked {
-                selectedLesson = title // Store the selected lesson
-                self.currentView = .lessons // Change to lessons view
+            if !locked, let lesson = lessonData?.lessons["lesson_1"] {
+                currentView = .lessons(lesson) // ContentView will show LessonsView
             }
         }) {
             HStack {
@@ -118,41 +98,7 @@ struct HomepageView: View {
 
 // Preview
 #Preview {
-    HomepageView(currentView: .constant(.homepage))
+    HomepageView(currentView: .constant(.homepage), lessonData: LessonLoader.loadLessons())
 }
-//struct ProgressChartView: View {
-//    var body: some View {
-//        VStack(alignment: .leading, spacing: 16) {
-//            Text("Your Progress")
-//                .font(.headline)
-//
-//            HStack {
-//                VStack {
-//                    Text("XP")
-//                    Text("120").bold()
-//                    ProgressView(value: 0.6)
-//                        .progressViewStyle(LinearProgressViewStyle(tint: .green))
-//                }
-//
-//                VStack {
-//                    Text("Streak")
-//                    Text("5 Days").bold()
-//                    ProgressView(value: 0.5)
-//                        .progressViewStyle(LinearProgressViewStyle(tint: .orange))
-//                }
-//
-//                VStack {
-//                    Text("Lessons")
-//                    Text("3/10").bold()
-//                    ProgressView(value: 0.3)
-//                        .progressViewStyle(LinearProgressViewStyle(tint: .blue))
-//                }
-//            }
-//            .padding(.horizontal)
-//        }
-//        .padding()
-//        .background(Color(.systemGray6))
-//        .cornerRadius(15)
-//        .padding(.horizontal)
-//    }
-//}
+
+

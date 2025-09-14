@@ -35,19 +35,5 @@ struct Sections: Codable {
 }
 
 
-//struct QuizQuestion: Codable {
-//    var question: String
-//    var options: [String]
-//    var answer: String
-//}
-
-//struct LessonQuiz: Codable {
-//    let title: String
-//    let questions: [QuizQuestion]
-//}
-
-//struct Quizzes: Codable {
-//    var quiz: [String: LessonQuiz]
-//}
 
 
